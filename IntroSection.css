@@ -1,0 +1,60 @@
+.intro-section {
+  background-color: #495e57;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro-container {
+  max-width: 500px;
+}
+
+.intro-container h1 {
+  color: #f4ce14;
+  font-size: 56px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.intro-container p {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Karla', sans-serif;
+}
+
+.intro-container button {
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  font-family: 'Markazi Text', sans-serif;
+  font-size: 24px;
+  background-color: #f4ce14;
+}
+
+.intro-container button:hover {
+  cursor: pointer;
+  background-color: #f4cf14cd;
+}
+
+.table-image {
+  width: 500px;
+  height: auto;
+  position: relative;
+  top: 60px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .intro-section {
+    text-align: center;
+    display: block;
+  }
+
+  .intro-container {
+    max-width: 100%;
+    margin: 0 40px;
+  }
+
+  .table-image {
+    top: 30px;
+  }
+}

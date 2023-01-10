@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    display: block;
+    text-align: center;
+    margin: 20px;
+  }
+}
